@@ -76,7 +76,7 @@ This project demonstrates complete DevOps automation using:
 ## 📸 Screenshots
 
 ### Terraform Apply
-![Terraform](screenshots/terraform-apply-1.png)
+![Terraform](terraform-apply-1.png)
 ![Terraform](screenshots/terraform-apply.png)
 ![EC2](screenshots/instance.png)
 ![EC2](screenshots/instance2.png)
