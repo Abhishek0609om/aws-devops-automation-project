@@ -76,21 +76,17 @@ This project demonstrates complete DevOps automation using:
 ## 📸 Screenshots
 
 ### Terraform Apply
+![Terraform](screenshots/terraform-apply-1.png)
 ![Terraform](screenshots/terraform-apply.png)
-
-### EC2 Instance Running
-![EC2](screenshots/ec2-instance-running.png)
-
-### Website Output
+![EC2](screenshots/instance.png)
+![EC2](screenshots/instance2.png)
+![EC2](screenshots/instance-created.png)
+![EC2](screenshots/playbook.png)
+![EC2](screenshots/playbook-run.png)
+![EC2](screenshots/inventory-files.png)
 ![Website](screenshots/website-output.png)
-
-### CloudWatch Alarm
 ![Alarm](screenshots/cloudwatch-alarm.png)
-
-### Email Alert
 ![Email](screenshots/sns-email-alert.png)
-
-### Backup Instance
 ![Backup](screenshots/backup-instance.png)
 
 ---
