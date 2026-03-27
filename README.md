@@ -1,4 +1,3 @@
-# aws-devops-automation-project
 # 🚀 AWS DevOps Automation Project
 
 ## 📌 Project Overview
