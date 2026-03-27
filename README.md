@@ -74,20 +74,47 @@ This project demonstrates complete DevOps automation using:
 ---
 
 ## 📸 Screenshots
+### ⚙️ Terraform Apply (Step 1)
+![Terraform Apply 1](screenshots/terraform-apply.png)
 
-### Terraform Apply
-![Terraform](terraform-apply-1.png)
-![Terraform](screenshots/terraform-apply.png)
-![EC2](screenshots/instance.png)
-![EC2](screenshots/instance2.png)
-![EC2](screenshots/instance-created.png)
-![EC2](screenshots/playbook.png)
-![EC2](screenshots/playbook-run.png)
-![EC2](screenshots/inventory-files.png)
-![Website](screenshots/website-output.png)
-![Alarm](screenshots/cloudwatch-alarm.png)
-![Email](screenshots/sns-email-alert.png)
-![Backup](screenshots/backup-instance.png)
+### ⚙️ Terraform Apply (Step 2)
+![Terraform Apply 2](screenshots/terraform-apply-1.png)
+
+### 🚀 EC2 Instance Before Terraform Apply
+![Instance](screenshots/instance.png)
+
+### 🚀 EC2 Instance After (Second View)
+![Instance 2](screenshots/instance2.png)
+
+### 📡 Public IP Check
+![IP Check](screenshots/ip_check.png)
+
+### 📂 Inventory File Configuration
+![Inventory](screenshots/inventory-files.png)
+
+### 🧪 CPU Stress Testing
+![CPU Tester](screenshots/cpu-tester.png)
+
+### 📊 CPU Usage Monitoring
+![CPU Usage](screenshots/cpu-usage-.png)
+
+### 🖼️ AMI Image Created
+![AMI Image](screenshots/ami-image-created.png)
+
+### 🔁 AMI Backup Created
+![AMI Backup](screenshots/ami-backup.png)
+
+### ▶️ Ansible Playbook
+![Playbook](screenshots/playbook.png)
+
+### ▶️ Ansible Playbook Execution
+![Playbook Run](screenshots/playbook-run.png)
+
+### 📩 SNS Email Notification
+![SNS Mail](screenshots/sns-mail-.png)
+
+### ✅ Final Verification
+![Verified](screenshots/verified.png)
 
 ---
 
