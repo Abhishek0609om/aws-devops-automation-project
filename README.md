@@ -1,12 +1,7 @@
 # 🚀 AWS DevOps Automation Project
 
 ## 📌 Project Overview
-This project demonstrates complete DevOps automation using:
-
-- Terraform (Infrastructure as Code)
-- Ansible (Configuration Management)
-- AWS EC2 (Cloud Infrastructure)
-- CloudWatch (Monitoring & Alerts)
+This project demonstrates an end-to-end DevOps workflow using infrastructure automation, configuration management, monitoring, and backup on AWS.
 
 ---
 
@@ -20,102 +15,78 @@ This project demonstrates complete DevOps automation using:
 
 ---
 
-## ⚙️ What This Project Does
+## ⚙️ Key Features
 
-✔ Creates EC2 instance using Terraform  
-✔ Configures server using Ansible  
-✔ Installs and runs Nginx web server  
-✔ Deploys a simple web page  
-✔ Monitors CPU usage using CloudWatch  
-✔ Sends email alert when CPU > 80%  
-✔ Demonstrates backup/restore concept  
+- Automated EC2 provisioning using Terraform  
+- Configured web server using Ansible  
+- Deployed Nginx with custom webpage  
+- Implemented monitoring using CloudWatch  
+- Configured SNS for alert notifications  
+- Performed backup and restore using AMI  
 
 ---
 
 ## 📂 Project Structure
-
 ---
-
 ## 🚀 Steps Performed
 
 ### 1. Infrastructure Setup (Terraform)
-- Created EC2 instance
-- Configured Security Group
-- Added SSH Key Pair
+- Created EC2 instance  
+- Configured Security Group  
+- Added SSH Key Pair  
 
----
-
-### 2. Configuration Management (Ansible)
-- Connected to EC2
-- Installed Nginx
-- Started and enabled service
-- Created web page
-
----
-
-### 3. Monitoring (CloudWatch)
-- Created CPU utilization alarm
-- Threshold set to 80%
-- SNS email notification configured
-
----
-
-### 4. Testing Alert
-- Generated CPU load using:
-- - Alarm triggered successfully
-- Email notification received
-
----
-
-### 5. Backup & Restore
-- Created backup instance
-- Verified website working on new instance
-
----
-
-## 📸 Screenshots
-### ⚙️ Terraform Apply (Step 1)
-![Terraform Apply 1](screenshots/terraform-apply.png)
-
-### ⚙️ Terraform Apply (Step 2)
+📸  
+![Terraform](screenshots/terraform-apply.png)
 ![Terraform Apply 2](screenshots/terraform-apply-1.png)
-
 ### 🚀 EC2 Instance Before Terraform Apply
 ![Instance](screenshots/instance.png)
 
 ### 🚀 EC2 Instance After (Second View)
 ![Instance 2](screenshots/instance2.png)
 
-### 📡 Public IP Check
-![IP Check](screenshots/ip_check.png)
+---
 
-### 📂 Inventory File Configuration
-![Inventory](screenshots/inventory-files.png)
+### 2. Configuration Management (Ansible)
+- Installed Nginx  
+- Started and enabled service  
+- Created web page  
 
-### 🧪 CPU Stress Testing
+📸  
+![Ansible](screenshots/playbook-run.png)
+
+---
+
+### 3. Website Output
+
+📸  
+![Website](screenshots/verified.png)
+
+---
+
+### 4. Monitoring (CloudWatch)
+- Created CPU alarm (threshold: 80%)  
+
+📸  
+![CloudWatch](screenshots/cloudwatch.png)
+
+---
+
+### 5. Alert Testing
+Generated CPU load using:
+Alarm triggered 
+Email received
 ![CPU Tester](screenshots/cpu-tester.png)
-
-### 📊 CPU Usage Monitoring
 ![CPU Usage](screenshots/cpu-usage-.png)
-
-### 🖼️ AMI Image Created
-![AMI Image](screenshots/ami-image-created.png)
-
-### 🔁 AMI Backup Created
-![AMI Backup](screenshots/ami-backup.png)
-
-### ▶️ Ansible Playbook
-![Playbook](screenshots/playbook.png)
-
-### ▶️ Ansible Playbook Execution
-![Playbook Run](screenshots/playbook-run.png)
-
-### 📩 SNS Email Notification
 ![SNS Mail](screenshots/sns-mail-.png)
 
-### ✅ Final Verification
-![Verified](screenshots/verified.png)
 
+### 6. Backup & Restore
+Created AMI backup
+Launched new instance
+Verified application
+![AMI Backup](screenshots/ami-backup.png)
+![AMI Image](screenshots/ami-image-created.png)
+![Verified](screenshots/verified.png)
 ---
 
 ## 🎯 Outcome
